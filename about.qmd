@@ -9,11 +9,13 @@ about:
       href: https://github.com/ETC5523-2024/assignment-3-creating-a-blog-ChenghaoZeng
 ---
 
+::: {.text}
+I am a graduate student specializing in Business Analytics at Monash University, with a background in Finance and IT. I have gained valuable industry experience through internships at CSC Financial and E Fund Management, where I focused on applying data-driven approaches to finance and business operations. 
 
-I am a graduate student specializing in Business Analytics at Monash University, with a background in Finance and IT. I have gained valuable industry experience through internships at CSC Financial and E Fund Management, where I focused on applying data-driven approaches to finance and business operations.
+I am passionate about solving complex business problems using data analysis and visualization techniques. If you have a project or need help in leveraging data for strategic decisions, feel free to contact me with the details below. 
+:::
 
-I am passionate about solving complex business problems using data analysis and visualization techniques. If you have a project or need help in leveraging data for strategic decisions, feel free to contact me with the details below.
-
+::: {.text2}
 My areas of expertise are:
 
 - Data analysis and visualization,
@@ -21,3 +23,4 @@ My areas of expertise are:
 - Corporate risk assessment,
 - Market trend analysis,
 - Strategic business decision-making using analytics.
+:::
