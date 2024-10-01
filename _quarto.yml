@@ -12,8 +12,9 @@ website:
 format:
   html:
     theme: litera
-    css: styles.css
-    fontcolor: black
+    css: ["styles.css"]
+
+
 
 
 

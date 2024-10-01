@@ -7,7 +7,17 @@ about:
     - icon: github
       text: Github
       href: https://github.com/ETC5523-2024/assignment-3-creating-a-blog-ChenghaoZeng
-
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+
+I am a graduate student specializing in Business Analytics at Monash University, with a background in Finance and IT. I have gained valuable industry experience through internships at CSC Financial and E Fund Management, where I focused on applying data-driven approaches to finance and business operations.
+
+I am passionate about solving complex business problems using data analysis and visualization techniques. If you have a project or need help in leveraging data for strategic decisions, feel free to contact me with the details below.
+
+My areas of expertise are:
+
+- Data analysis and visualization,
+- Financial data modeling,
+- Corporate risk assessment,
+- Market trend analysis,
+- Strategic business decision-making using analytics.
