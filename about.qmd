@@ -1,18 +1,24 @@
 ---
-title: "About"
+title: "About me"
 image: profile.jpg
+toc: true
+
 about:
   template: jolla
   links:
     - icon: github
       text: Github
-      href: https://github.com/ETC5523-2024/assignment-3-creating-a-blog-ChenghaoZeng
+      href: https://github.com/dashboard
+
+    - icon: facebook
+      text: facebook
+      href: https://www.facebook.com/share/kZZH82qtsqw6E8qe/?mibextid=LQQJ4d
 ---
 
 ::: {.text}
 I am a graduate student specializing in Business Analytics at Monash University, with a background in Finance and IT. I have gained valuable industry experience through internships at CSC Financial and E Fund Management, where I focused on applying data-driven approaches to finance and business operations. 
 
-I am passionate about solving complex business problems using data analysis and visualization techniques. If you have a project or need help in leveraging data for strategic decisions, feel free to contact me with the details below. 
+I am passionate about solving complex business problems using data analysis and visualization techniques. I have an active GitHub profile which contains most of my research code that can be made publicly available.
 :::
 
 ::: {.text2}
@@ -24,3 +30,5 @@ My areas of expertise are:
 - Market trend analysis,
 - Strategic business decision-making using analytics.
 :::
+
+# Contact
