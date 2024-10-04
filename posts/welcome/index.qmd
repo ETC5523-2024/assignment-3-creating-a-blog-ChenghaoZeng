@@ -1,7 +1,7 @@
 ---
-title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
-date: "2022-07-18"
+title: "Exploring Valentine’s Day Consumer Trends: Insights and Analysis"
+author: "Chenghao Zeng"
+date: "2024-10-04"
 categories: [news]
 ---
 
