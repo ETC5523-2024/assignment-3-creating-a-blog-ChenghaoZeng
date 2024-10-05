@@ -3,12 +3,47 @@ title: "Exploring Valentine’s Day Consumer Trends: Insights and Analysis"
 author: "Chenghao Zeng"
 date: "2024-10-04"
 categories: [analysis]
+
+toc: true
 ---
 
 ![](thumbnail.jpg)
 
 
-Valentine’s Day has long been one of the biggest consumer-driven holidays, with billions spent each year on gifts and celebrations (National Retail Federation, n.d.). But as shopping habits and social values shift, so do people's preferences when it comes to Valentine’s Day gifting... Let's explore how consumer spending trends have changed based on preference shifts and age group differences
+Valentine’s Day has long been one of the biggest consumer-driven holidays, with billions spent each year on gifts and celebrations (National Retail Federation, n.d.). But as shopping habits and social values shift, so do people's preferences when it comes to Valentine’s Day gifting... Let's explore how consumer spending trends have changed based on preference shifts and age group differences.
+
+___
+# What data will be applied:
+data is downloaded from the [github project called "tidytuesday"](https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-02-13) and original data is from  National Retail Federation (n.d.).
+
+In this case historical_spending.csv and gifts_age.csv are used for the analysis, provide insights into Valentine’s Day spending habits over time and across different age groups.
+
+historical_spending.csv:
+This dataset captures the trends in Valentine’s Day spending from a historical perspective. Key variables include:
+
+- Year: The year in which spending data was recorded.
+- PercentCelebrating: The percentage of people celebrating Valentine’s Day that year.
+- PerPerson: The average amount spent per person celebrating the holiday.
+- Candy, Flowers, Jewelry, GreetingCards, EveningOut, Clothing, GiftCards: These variables represent the average spending on specific   categories, giving insight into how people allocate their budgets across different types of gifts.
 
 
+gifts_age.csv: 
+This dataset focuses on spending patterns based on age groups. Key variables include:
+
+- Age: The age group of individuals.
+- SpendingCelebrating: The percentage of people within each age group who spend money on or celebrate Valentine’s Day.
+- Candy, Flowers, Jewelry, GreetingCards, EveningOut, Clothing, GiftCards: These variables represent the average percentage of          spending on each type of gift within the given age group, shedding light on how spending preferences change with age.
+
+Together, these datasets provide a comprehensive look at how spending on Valentine’s Day has evolved over time and varies across different age demographics.
+
+___
+## Steps to get tidy data:
+Download the data by using the code below in R studio:
+```{r eval=FALSE, echo=TRUE,warning=FALSE,message=FALSE}
+tuesdata <- tidytuesdayR::tt_load(2024, week = 7)
+
+historical_spending <- tuesdata$historical_spending
+gifts_age <- tuesdata$gifts_age
+```
+These datasets are well-prepared and ready to use, thus no data manipulation are needed.
 

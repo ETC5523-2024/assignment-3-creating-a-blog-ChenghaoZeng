@@ -2,8 +2,8 @@
 .navbar-dark, .quarto-title-banner {
 }
 
-h1 {
-    color: #00FF00;
+h1,h2,h3,h4,h5,h6 {
+    color: #ff9900;
 }
 
 body {
