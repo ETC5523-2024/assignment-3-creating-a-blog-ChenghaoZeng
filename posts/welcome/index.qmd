@@ -5,8 +5,10 @@ date: "2024-10-04"
 categories: [analysis]
 ---
 
-This is the first post in a Quarto blog. Welcome!
-
 ![](thumbnail.jpg)
+
+
+Valentine’s Day has long been one of the biggest consumer-driven holidays, with billions spent each year on gifts and celebrations (National Retail Federation, n.d.). But as shopping habits and social values shift, so do people's preferences when it comes to Valentine’s Day gifting... Let's explore how consumer spending trends have changed based on preference shifts and age group differences
+
 
 
