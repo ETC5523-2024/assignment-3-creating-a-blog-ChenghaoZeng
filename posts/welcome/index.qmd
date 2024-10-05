@@ -14,7 +14,7 @@ Valentine’s Day has long been one of the biggest consumer-driven holidays, wit
 
 ___
 # What data will be applied:
-data is downloaded from the [github project called "tidytuesday"](https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-02-13) and original data is from  National Retail Federation (n.d.).
+The data has been downloaded from the [github project called "tidytuesday"](https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-02-13) and original data is from  National Retail Federation (n.d.).
 
 In this case historical_spending.csv and gifts_age.csv are used for the analysis, provide insights into Valentine’s Day spending habits over time and across different age groups.
 
@@ -77,7 +77,7 @@ historical_spending <- read.csv("D:/5523/assignment-3-creating-a-blog-ChenghaoZe
 gifts_age <- read.csv("D:/5523/assignment-3-creating-a-blog-ChenghaoZeng/gifts_age.csv")
 ```
 
-- Creating a line plot @fig-lineplot using ggplot2 in R to visualize the trend in the percentage of people celebrating Valentine’s Day over the years 2010 to 2022. Each red point in the graph represents one year. To highlight the overall trend, a regression line was added. Over this period, the percentage of people celebrating Valentine's Day has generally declined. Although there are fluctuations, the regression line confirms a downward trend, suggesting a decreasing interest in the holiday. 
+- Creating a line plot @fig-lineplot using ggplot2 in R to visualize the trend in the percentage of people celebrating Valentine’s Day over the years 2010 to 2022. Each red point in the graph represents one year. To highlight the overall trend, a regression line was added. Over the period, the percentage of people celebrating Valentine's Day has generally declined. Although there are fluctuations, the regression line confirms a downward trend, suggesting a decreasing interest in the holiday. 
 
 ```{r fig-lineplot, eval=TRUE ,message=FALSE}
 #| label: fig-lineplot
@@ -127,3 +127,7 @@ kable(gifts_age_df)%>%
   kable_styling(font_size = 7) 
 
 ```
+
+___
+## Some advice for the market...
+the analysis emphasize that, for Valentine's Day marketing planning, companies need to adapt to the new tastes and desires of different age groups. Overall, the decline in the percentage celebrating Valentine's Day would indicate a shift in values or priorities for society. However, in the product categories, such as jewellery, a true rise has taken place, which was most pronounced in the younger consuming population. With these insights, businesses can provide better personalization of their offering to appeal to some consumer groups, hence driving those activity groups toward more revenue in Valentine's Day. Knowing such trends at the forefront will enable businesses to be head of the pattern shift and make wiser decisions toward emerging consumer behaviours.
