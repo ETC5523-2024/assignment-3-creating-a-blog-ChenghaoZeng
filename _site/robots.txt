@@ -1,1 +1,1 @@
-Sitemap: https://73e02a3b-3901-4b4c-be22-dd944a747fc6.netlify.app/sitemap.xml
+Sitemap: https://ETC5523-2024.github.io/assignment-3-creating-a-blog-ChenghaoZeng/sitemap.xml
