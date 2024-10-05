@@ -37,7 +37,7 @@ This dataset focuses on spending patterns based on age groups. Key variables inc
 Together, these datasets provide a comprehensive look at how spending on Valentine’s Day has evolved over time and varies across different age demographics.
 
 ___
-## Steps to get tidy data:
+# Steps to get tidy data:
 Download the data by using the code below in R studio:
 ```{r eval=FALSE, echo=TRUE,warning=FALSE,message=FALSE}
 tuesdata <- tidytuesdayR::tt_load(2024, week = 7)
@@ -48,7 +48,7 @@ gifts_age <- tuesdata$gifts_age
 These datasets are well-prepared and ready to use, thus no data manipulation are needed.
 
 ___
-## Some analysis...
+# Some analysis...
 ```{r setup, include = FALSE,message=FALSE,warning=FALSE}
 knitr::opts_chunk$set(
   echo = FALSE,
@@ -129,5 +129,9 @@ kable(gifts_age_df)%>%
 ```
 
 ___
-## Some advice for the market...
+# Some advice for the market...
 the analysis emphasize that, for Valentine's Day marketing planning, companies need to adapt to the new tastes and desires of different age groups. Overall, the decline in the percentage celebrating Valentine's Day would indicate a shift in values or priorities for society. However, in the product categories, such as jewellery, a true rise has taken place, which was most pronounced in the younger consuming population. With these insights, businesses can provide better personalization of their offering to appeal to some consumer groups, hence driving those activity groups toward more revenue in Valentine's Day. Knowing such trends at the forefront will enable businesses to be head of the pattern shift and make wiser decisions toward emerging consumer behaviours.
+
+___
+# Reference
+*National Retail Federation. (n.d.). Valentine’s Day data center*. https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center
